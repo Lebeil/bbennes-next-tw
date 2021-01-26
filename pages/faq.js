@@ -94,13 +94,10 @@ const Faq = () => {
                         </h1>
                         <a
                             href="/contact"
-                            className="mx-20 flex items-center justify-center py-3 border-transparent font-medium rounded-md text-white text-xl md:text-2xl bg-primaryColor md:w-60 md:py-4"
+                            className="mx-20 md:mx-auto flex items-center justify-center py-3 border-transparent font-medium rounded-md text-white text-xl md:text-2xl bg-primaryColor md:w-60 md:py-4"
                         >
                             Nous contacter
                         </a>
-                    </div>
-                    <div>
-
                     </div>
                 </section>
             </div>
