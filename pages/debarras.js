@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout";
 import Phone from "../components/svg/phone";
+import Link from "next/link";
 
 const Debarras = () => {
     return (
@@ -64,7 +65,8 @@ const Debarras = () => {
                         <h2 className="text-gray-500 py-2 block text-justify">
                             L'entreprise <strong>B bennes</strong> est composé de professionnels compétents et qualifiés
                             qui se conforment à tout type de chantier pour vous trouver la meilleure solution
-                            d’évacuation de vos déchets pour les particuliers et les professionnels.
+                            d’évacuation de vos déchets pour les particuliers et les professionnels. Nous sommes également à votre disposition pour toutes les démarches administratives
+                            (demande en mairie, au commissariat de police etc ...) et vous donner des conseils.
                         </h2>
                         <p className="text-gray-500 py-2 block text-justify">
                             Nos ouvriers peuvent vous aider à
@@ -80,10 +82,18 @@ const Debarras = () => {
                             Un service gratuit mais seulement sur demande soit par mail soit par téléphone.
                         </p>
 
+                        <div className="mt-5 mb-2">
+                            <span className="bg-secondaryColor p-2 text-white">Option "Chargement express"</span>
+                        </div>
+
+                        <p className="text-gray-500 mb-5 block text-justify">
+                            Pour éviter les demandes d’autorisations à votre mairie, vous pouvez opter pour le "<strong>chargement express</strong>" et nous pouvons immobiliser votre benne devant votre chantier pendant 45 min maximun.
+                        </p>
+
                         <small className="underline">Mise en décharge et fourniture d’une attestation de décharge
                             si demandée.</small>
                         <p className="uppercase py-5">
-                            <span className="bg-primaryColor text-white px-2 py-2">Nos devis sont gratuits et sans engagement</span>
+                            <span className="bg-primaryColor text-white p-2">Nos devis sont gratuits et sans engagement</span>
                         </p>
 
                         <p>Sans plus tarder, prenez vite rendez-vous par téléphone pour un devis rapide, un spécialiste
@@ -91,13 +101,16 @@ const Debarras = () => {
                             déchets. </p>
 
                         <div className="flex justify-center pt-10">
-                            <div className="flex border-2 border-primaryColor rounded-2xl px-6 md:px-4 py-2">
-                                <Phone/>
-                                <a href="tel: 0950922030"
-                                   className="relative -right-2 text-2xl font-bold text-blue-600 sm:px-3">
-                                    06 09 05 60 87
+                            <Link href="tel: 0950922030" passHref>
+                                <a className="flex border-2 border-primaryColor rounded-2xl px-6 md:px-4 py-2">
+                                    <Phone/>
+                                    <div className="relative -top-2 -right-2 text-2xl font-bold text-blue-600 sm:px-3">
+                                        09 50 92 20 30
+                                        <small className="absolute top-5 right-3">(appel gratuit)</small>
+                                    </div>
                                 </a>
-                            </div>
+                            </Link>
+
                         </div>
 
                     </div>

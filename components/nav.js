@@ -50,7 +50,7 @@ export default function Nav() {
                             <ul className="cursor-pointer border-t-2 border-blue-700 shadow-2xl bg-white round">
                                 <li className="py-2 px-2 hover:bg-blue-400 hover:text-white">
                                     <Link href="/interventions-93-94-92-77-91-78-95-75" passHref>
-                                        <a >Zone d'intervention</a>
+                                        <a>Zone d'intervention</a>
                                     </Link>
                                 </li>
                                 <li className="py-2 px-2 hover:bg-blue-400 hover:text-white">
@@ -61,7 +61,7 @@ export default function Nav() {
                                 </li>
                                 <li className="py-2 px-2 hover:bg-blue-400 hover:text-white">
                                     <Link href="/debarras" passHref>
-                                        <a >Main
+                                        <a>Main
                                             d'oeuvre</a>
                                     </Link>
                                 </li>

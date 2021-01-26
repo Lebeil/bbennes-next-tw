@@ -52,7 +52,7 @@ const CallToAction = () => {
                                         className="h-10 w-10"
                                     />
                                 </div>
-                                <p className="relative -right-12 leading-tight">Livraison de la benne rapide dans toute l'Ile-de-France.</p>
+                                <p className="relative -right-12 leading-tight">Livraison de la benne gratuite en 24h dans toute l'Ile-de-France.</p>
                             </li>
                             <li className="flex items-center py-2">
                                 <div className="absolute">
@@ -73,6 +73,16 @@ const CallToAction = () => {
                                     />
                                 </div>
                                 <p className="relative -right-12 leading-tight">Inutile de trier les déchets, nous le faisons pour vous.</p>
+                            </li>
+                            <li className="flex items-center py-2">
+                                <div className="absolute">
+                                    <img
+                                        src="img/checked.svg"
+                                        alt="check icone"
+                                        className="h-10 w-10"
+                                    />
+                                </div>
+                                <p className="relative -right-12 leading-tight">Le chargement express (45min) qui vous libère les formalités administratives.</p>
                             </li>
                         </ul>
                     </div>

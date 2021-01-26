@@ -17,14 +17,14 @@ const Bennes = () => {
                         <h2 className="text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                             Benne à chaîne
                         </h2>
-                        <p className="mt-4 mb-4 md:mb-0 max-w-2xl text-xl text-left text-gray-500 lg:mx-auto">
+                        <p className="mt-4 mb-4 md:mb-0 text-xl text-left text-gray-500 md:w-full">
                             Cette benne est destinée pour l'évacuation de gravats de chantier (démolition, viabilisation, assainissement etc...), de terre, bitume, sable, graviers, boue, rochers, briques, plâtre, parpaings,
                             déchets ...
                         </p>
-                        <p className="mt-4 mb-4 md:mb-0 max-w-2xl text-xl text-left text-gray-500 lg:mx-auto">
-                            Les bennes à chaîne s'offrent une taille idéale
+                        <p className="mt-4 mb-4 md:mb-0 text-xl text-left text-gray-500 md:w-full">
+                            Les bennes à chaîne peuvent se placer dans des endroits restreints et elles n'ont pas de limite de poids.
                         </p>
-                        <p className="mt-4 mb-4 md:mb-0 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                        <p className="mt-4 mb-4 md:mb-0 text-xl text-left text-gray-500 md:w-full">
                             Rappel: Notre flotte est équipée de la norme euro 6.
                         </p>
                     </div>
@@ -152,10 +152,6 @@ const Bennes = () => {
                             </div>
                         </div>
 
-                        <div >
-                            <h2 className="font-extrabold text-left">Les déchets autorisés pour la benne à chaine :</h2>
-                        </div>
-
                         {/*Keywords*/}
                         <div id="benne_a_bras" >
                             <div className="hid">location de benne pour chantier</div>
@@ -165,11 +161,24 @@ const Bennes = () => {
 
                 <div className="max-w-7xl mx-auto p-4 sm:px-6 lg:px-8 bg-blue-light my-10">
                     <div className="text-center mb-5" >
-                        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl" >
+                        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl" >
                             Benne à bras - Ampliroll
+                        </h3>
+                        <p className="mt-4 text-xl text-left text-gray-500 md:w-full" >
+                            Les bennes à bras sont équipés de deux portes arrières avec ouverture battante pour faciliter le chargement. Une échelle permet de charger par dessus.
                         </p>
-                        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" >
-                            Rappel: Notre flotte est équipée de la norme euro 6.
+                        <p className="mt-4 text-xl text-left text-gray-500 md:w-full" >
+                            Les objets lourds (terre, pierre, gravats etc...) sont strictement déconseillés, une benne à chaîne est vivement recommandée! Le poids est limité à 12 tonnes.
+                        </p>
+                        <p className="mt-4 text-xl text-left text-gray-500 md:w-full" >
+                            <span className="font-semibold">Les déchets autorisés sont : </span>
+                            déchets,
+                            objets encombrants,
+                            bois, cartons, déchets verts,
+                            DEEE (electroménager, matériel informatique, photocopieuses, refrigerateurs, etc.)
+                            déchets Industriels banals (DIB)
+                            déchets recyclables
+                            récupération de métaux, fer ...
                         </p>
                     </div>
 
