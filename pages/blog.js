@@ -9,7 +9,7 @@ const Blog = () => {
             <section className="pt-24 bg-fondColor">
                 <div className="container mx-auto">
                     <div>
-                        <h1 className="text-2xl font-black text-gray-800 mt-5 pb-3 px-6 md:px-12">
+                        <h1 className="text-2xl font-black text-gray-800 mt-20 pb-3 px-6 md:px-12">
                             A LA UNE
                         </h1>
                     </div>
