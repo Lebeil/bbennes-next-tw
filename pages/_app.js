@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return(
       <>
         <Head>
-          <title>B bennes 🚚🦺 tel: 06.09.05.60.87 | location de bennes au meilleur prix | Paris & Ile-de-France</title>
+          <title>B bennes 🚚🦺 tel: 09.50.92.20.30 | location de bennes au meilleur prix | Paris & Ile-de-France</title>
           <link rel="icon" href="/favicon.ico" />
           <meta
               name="description"

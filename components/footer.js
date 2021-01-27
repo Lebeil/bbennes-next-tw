@@ -43,7 +43,7 @@ const Footer = () => {
                                 <dd className="mt-2 text-base text-gray-500 flex flex-wrap">
                                     <ul>
                                         <li className="text-lg py-1"><a href="/debarras">Qui sommes nous?</a></li>
-                                        <li className="text-lg py-1"><a href="/">Comment ça marche ?</a></li>
+                                        <li className="text-lg py-1"><a href="/#how">Comment ça marche ?</a></li>
                                         <li className="text-lg py-1"><a href="/faq">FAQ</a></li>
                                         <li className="text-lg py-1"><a href="/blog">Notre blog</a></li>
                                         <li className="text-lg py-1"><a href="/dechets-gravats">Déchets autorisés et refusés</a></li>
