@@ -64,7 +64,7 @@ const Contact = () => {
                             <textarea
     id="message"
     className="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md bg-blue-100"
-    placeholder="Comment puisse-je vous aider ?"
+    placeholder="CommentLouerUneBenne puisse-je vous aider ?"
     />
                         </div>
 

@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 const Mentions = () => {
     return (
         <Layout>
-            <h1 className="bg-primaryColor w-max text-white font-bold text-2xl pt-40 md md:mt-24">Vos mentions légales :</h1>
+            <h1 className="bg-primaryColor w-max text-white font-bold text-2xl pt-40 md:mt-24">Vos mentions légales :</h1>
             <div className="p-5 text-left">
                 <h2 className="underline">Informations légales</h2>
                 <h3 className="p-2 text-2xl">1. Présentation du site.</h3>
