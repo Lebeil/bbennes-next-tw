@@ -60,8 +60,8 @@ const Footer = () => {
                                 </dt>
                                 <dd className="mt-2 text-base text-gray-500">
                                     <ul>
-                                        <li className="text-lg py-1"><a href="/">Mentions légales</a></li>
-                                        <li className="text-lg py-1"><a href="/">Données et cookies</a></li>
+                                        <li className="text-lg py-1"><a href="/mentions-legales">Mentions légales</a></li>
+                                        <li className="text-lg py-1"><a href="/mentions-legales#cookies">Données et cookies</a></li>
                                     </ul>
                                 </dd>
                             </div>
