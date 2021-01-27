@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../components/svg/logo'
+import Logo from '../components/svg/logo';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -60,8 +61,23 @@ const Footer = () => {
                                 </dt>
                                 <dd className="mt-2 text-base text-gray-500">
                                     <ul>
-                                        <li className="text-lg py-1"><a href="/mentions-legales">Mentions légales</a></li>
-                                        <li className="text-lg py-1"><a href="/mentions-legales#cookies">Données et cookies</a></li>
+                                        <li className="text-lg py-1">
+                                            <Link href="/mentions-legales" passHref>
+                                                <a>Mentions légales</a>
+                                            </Link>
+                                        </li>
+                                        <li className="text-lg py-1">
+                                            <Link href="/mentions-legales#cookies" passHref>
+                                                <a>Données et cookies</a>
+                                            </Link>
+
+                                        </li>
+                                        <li>
+                                            <Link href="/faq" passHref>
+                                                <a className="text-red-700 font-bold">⚠ QUESTIONS RELATIVES AU COVID-19</a>
+                                            </Link>
+
+                                        </li>
                                     </ul>
                                 </dd>
                             </div>

@@ -100,7 +100,7 @@ const CallToAction = () => {
                 >
                     <Image
                         src="/img/jumb.png"
-                        alt="homme au travail"
+                        alt="location benne à gravats"
                         layout="responsive"
                         /*className="absolute z-50 w-full h-full object-cover object-center lg:w-1/2"*/
                         width={700}

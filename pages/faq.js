@@ -19,12 +19,12 @@ const Faq = () => {
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             <div className="w-full lg:w-1/2 px-4 py-2">
                                 <details className="mb-4">
-                                    <summary className="font-semibold  bg-blue-200 rounded-md py-2 px-4">
+                                    <summary className="font-semibold  bg-blue-200 rounded-md py-2 px-4 text-red-700">
                                         QUESTIONS RELATIVES AU COVID-19
                                     </summary>
 
                                     <span>
-                  Nos activités sont maintenues sur toute l'Ile-de-France. Désormais, tous les paiements sont uniquement par virement, par prélèvement ou par chèque.
+                  Nos activités sont maintenues sur toute l'Ile-de-France. Désormais, tous les paiements se feront uniquement par virement ou par prélèvement.
                 </span>
                                 </details>
                                 <details className="mb-4">
@@ -42,8 +42,8 @@ const Faq = () => {
                                     </summary>
 
                                     <span>
-                  Si vous comptez déposer une benne sur la voie publique, vous devez avoir une autorisation de voirie auprès du service technique de votre mairie. Vous pouvez télécharger un exemplaire en cliquant sur ce <a
-                                        href="https://www.service-public.fr/professionnels-entreprises/vosdroits/R17000" className="font-bold text-primaryColor underline">lien</a>
+                  Si vous comptez déposer une benne sur la voie publique, vous devez avoir une autorisation de voirie auprès du service technique de votre mairie ou au poste de gendarmerie pour les habitants de Paris. Vous pouvez télécharger un exemplaire en cliquant sur ce <a
+                                        href="https://www.service-public.fr/professionnels-entreprises/vosdroits/R17000" className="font-bold text-primaryColor underline">lien</a>. Nous pouvons également effectuer cette demande pour vous (prestation payante).
                 </span>
                                 </details>
                                 <details className="mb-4">
@@ -52,7 +52,7 @@ const Faq = () => {
                                     </summary>
 
                                     <span>
-                                    La livraison est gratuite et il n'y pas de frais cachés sauf pour les déplacements inutiles qui peuvent être facturable.
+                                    La livraison est gratuite et il n'y pas de frais cachés sauf pour les déplacements inutiles qui peuvent être facturable et les prestations comme faire une demande d'autorisation pour vous.
                 </span>
                                 </details>
                             </div>
