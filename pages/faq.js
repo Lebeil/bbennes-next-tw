@@ -33,7 +33,7 @@ const Faq = () => {
                                     </summary>
 
                                     <span>
-                  Tout dépend le type de déchets (bois, encombrants etc ...), le volume approximatif, le poids et l'accès. Ensuite, vous pouvez nous appelez au 0950922030 ou nous envoyer un mail, nous serons ravi de vous répondre dans les plus brefs délais.
+                  Tout dépend le type de déchets (bois, encombrants etc ...), le volume approximatif, le poids et l'accès. Ensuite, vous pouvez nous appelez au 0950922030 ou nous envoyer un mail, nous serions ravis de vous répondre dans les plus brefs délais.
                 </span>
                                 </details>
                                 <details className="mb-4">

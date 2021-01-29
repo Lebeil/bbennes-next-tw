@@ -23,14 +23,12 @@ const Footer = () => {
                                     B-bennes est l'un des leaders de loueurs de bennes en Ile-de-France
                                     pour les particuliers et les entreprises.
                                     <div className="py-4 font-extrabold text-primaryColor">
-                                        <a href="mailto:location.b.bennes@gmail.com"> contact@b-bennes.fr</a>
+                                        <a href="mailto:location.b.bennes@gmail.com">Contactez-nous par mail</a>
                                     </div>
                                     <div className="pt-2 flex flex-col leading-none">
-                                        <a href="tel:0950922030"> 09.50.92.20.30</a>
+                                        <a href="tel:0950922030">09.50.92.20.30</a>
                                         <small>Sans interruption de 7h à 18h</small>
                                     </div>
-
-
                                 </dd>
                             </div>
                         </div>
